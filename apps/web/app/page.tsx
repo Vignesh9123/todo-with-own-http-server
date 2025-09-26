@@ -1,9 +1,11 @@
 import React from 'react'
-
+import { Button } from '@repo/ui/button'
 function Home() {
   return (
     <div>
-      Hello World
+      <Button appName='web'>
+        Hello
+      </Button>
     </div>
   )
 }
